@@ -1,0 +1,23 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int num = 13;
+
+        int count = 0;
+
+        while (num > 0)
+        {
+            if (num % 2 == 1)
+            {
+                count++;
+            }
+
+            num = num / 2;
+        }
+
+        Console.WriteLine("Set Bits: " + count);
+    }
+}
